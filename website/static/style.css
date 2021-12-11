@@ -1,0 +1,378 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.bkDiv{
+  margin: auto;
+  height:500px;
+  width: 100%;
+  min-width: 1000px;
+  background-color: #cccccc;
+  background-image: url("gpu.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border: 1px solid transparent;
+}
+.ul1{
+  margin: 0;
+  position: sticky;
+  padding-left: 17%;
+  padding-right: 0;
+  height: 60px;
+  width: 100%;
+  background: rgb(214, 215, 216);
+}
+
+.li1{
+  list-style-type: none;
+  background: rgb(214, 215, 216);
+  float: left;
+  margin: 0;
+  padding: 0; 
+  height: 60px;
+}
+
+.a1{
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height:60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.a1:hover{
+  background-color: rgb(185, 186, 187);
+}
+.promo{
+  width:100%;
+  height:50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+.banner{
+  width:100%;
+  height:100px;
+  background-color:  rgb(136, 111, 28);;
+  color: white;
+
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  float: left;
+  border: 3px solid rgb(105, 86, 22);
+  border-radius: 15px;
+}
+.title{
+  padding-top: 26px;
+  padding-left: 110px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+.h{
+  margin: auto;
+  width: 50%;
+  height: 100px;
+
+}
+
+.txtDiv{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  background: rgb(214, 215, 216);
+  width:330px;
+  height:110px;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid rgb(105, 86, 22);
+}
+
+.contentDiv{
+  min-width: 1000px;
+  overflow: hidden;
+  margin: auto;
+  background: rgb(214, 215, 216);
+  width: 50%;
+  height: auto;
+
+}
+
+.productDiv{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:20px;
+  margin-right:20px;
+  width:  450px;
+  height:  200px;
+  border: 3px solid rgb(105, 86, 22);
+  float: left;
+  overflow: hidden;
+  
+}
+
+.txt{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.minitxtDiv{
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  background: rgb(214, 215, 216);
+  width:100px;
+  height:30px;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid rgb(105, 86, 22);
+}
+
+.productThreeDiv{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:15px;
+  margin-right:15px;
+  width:  300px;
+  height:  600px;
+  border: 3px solid rgb(105, 86, 22);
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  max-width: 100%;
+  text-align: center;
+  height: 400px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.a2{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height:150px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color:black;
+}
+.a2:hover{
+  background-color: rgb(185, 186, 187);
+}
+.ul2{
+  margin: 0;
+  position: sticky;
+  padding-left: 0;
+  padding-right: 0;
+  height: 150px;
+  width: 100%;
+  background: rgb(214, 215, 216);
+}
+
+.li2{
+  list-style-type: none;
+  background: rgb(214, 215, 216);
+  float: left;
+  margin: 0;
+  padding: 0; 
+  height: 150px;
+}
+
+.social{
+  min-width: 1000px;
+  position: relative;
+  width:100%;
+  height:150px;
+  background-color: black;
+
+  color: white;
+  text-align: center;
+
+}
+
+.socialDiv{
+  position: absolute;
+  top:40px;
+  left: 80%;
+  width: 360px;
+  height: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.productFiveDiv{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  width:  50px;
+  height:  50px;
+  float: left;
+  overflow: hidden;
+}
+
+
+.imgSmallDiv{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  margin: auto;
+  width: 250px;
+  height: 300px;
+  font-weight: bold;
+}
+
+.imgResize{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 50%;
+}
+
+.yellow_button{
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(105, 86, 22);
+}
+
+.yellow_button:hover{
+  background-color:  rgb(65, 53, 13);;
+}
+.mymodal{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(105, 86, 22);;
+  opacity: 100%;
+  pointer-events: none;
+}
+
+.mymodal:target {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 80%;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close3{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close4{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close5{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close6{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close6:hover,
+.close6:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.imgBigDiv{
+  margin: auto;
+  width: 500px;
+  height: 600px;
+
+}
